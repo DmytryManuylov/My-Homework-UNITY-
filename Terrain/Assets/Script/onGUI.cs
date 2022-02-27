@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class onGUI : MonoBehaviour
 {
-    public Texture2D icon;
+    //public Texture2D icon;
     private string message;
     private bool toggleBool = true;
 
@@ -35,7 +35,7 @@ public class onGUI : MonoBehaviour
             message = "Restarting level";
         GUI.Label(new Rect(220, 10, 100, 30), message);
         
-        GUI.Box(new Rect(Screen.width - 400, Screen.height - 400, 400, 400), new GUIContent(icon));// Картинка карты внизу справа
+        //GUI.Box(new Rect(Screen.width - 400, Screen.height - 400, 400, 400), new GUIContent(icon));// Картинка карты внизу справа
 
         GUI.Box(new Rect(Screen.width - 400, Screen.height - 430, 400, 30), "Map"); // Окно со словом карта над ней
 
